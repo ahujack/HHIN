@@ -1,14 +1,30 @@
 # HHIN
 Hierarchical Hybrid Interest Network
 
-tensorflow, numpy, python are required in order to run the code.
+# Prepare
+## Requirements
+* python 2.7
+* Tensorflow >= 1.0.4
 
-# data preprocess
+## Data preprocess
+The dataset is Amozon music or electronics data, download the data and it is split into training set(80%), and testing set (20%)
+```
 sh data.sh
+```
 
-The dataset is Amozon music or electronics data, and it is split into training set(80%), and testing set (20%)
+# Model
+The ./model/hhin_model.py is the model file for HHIN. Train or test model for HHIN.
+```
+cd ./tda_core
+python tda_runner.py running_mode=train
+python tda_runner.py running_mode=test
+```
 
-# model
-sh ./tda_core/tda_runner.py
+# Citation
+If you find this code useful in your research, please cite:
 
-The ./tda_core/hhin_model.py is the model file for HHIN.
+```
+
+```
+
+# Acknowledgements
