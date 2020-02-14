@@ -49,34 +49,6 @@ tf.app.flags.DEFINE_float("ema_decay", 0.999, "exponential moving average decay 
 tf.app.flags.DEFINE_string("decision_layer_units","256,128,32","decision_layer_units")
 tf.app.flags.DEFINE_string("model_num",None,"model_num")
 
-
-# tf.app.flags.DEFINE_integer("fg_capacity",3,"fg_capacity")
-# tf.app.flags.DEFINE_integer("fg_thread",8,"fg_thread")
-# tf.app.flags.DEFINE_integer("embedding_partition_size", 8388608, "embedding_partition_size")
-# tf.app.flags.DEFINE_integer("ubb_feature_num",12,"ubb_feature_num")
-# tf.app.flags.DEFINE_integer("ubb_feature_num_side",36,"ubb_feature_num_side")
-# tf.app.flags.DEFINE_integer("ubb_dim_side", 16, "ubb_dim_side")
-# tf.app.flags.DEFINE_string("hard_att_units","128,64,32","hard_att_units")
-# tf.app.flags.DEFINE_integer("heads_num",4,"heads_num")
-# tf.app.flags.DEFINE_integer("ubb_feature_unin_num",12,"ubb_feature_unin_num")
-# tf.app.flags.DEFINE_integer("ubb_feature_num_neg",4,"ubb_feature_num_neg")
-# tf.app.flags.DEFINE_string("uig_pos_layer_units","128,64,64","uig_pos_layer_units")
-# tf.app.flags.DEFINE_string("uig_neg_layer_units","128,64,64","uig_neg_layer_units")
-# tf.app.flags.DEFINE_integer("ubb_neg_slice_len",20,"ubb_neg_slice_len")
-# tf.app.flags.DEFINE_integer("ubb_pyrimid_fc_unit",128,"ubb_pyrimid_fc_unit")
-# tf.app.flags.DEFINE_integer("exp_num",8,"exp_num")
-# tf.app.flags.DEFINE_integer("ufc_output_num",128,"ufc_output_num")
-# tf.app.flags.DEFINE_integer("ufc_forward_num",256,"ufc_forward_num")
-# tf.app.flags.DEFINE_integer("task_cnt",2,"task_cnt")
-# tf.app.flags.DEFINE_string("group_neg_forward_layer_units","128,128","group_neg_forward_layer_units")
-# tf.app.flags.DEFINE_integer("user_neg_emb_num",64,"user_neg_emb_num")
-# tf.app.flags.DEFINE_integer("user_seq_emb_num",256,"user_seq_emb_num")
-# tf.app.flags.DEFINE_integer("top_num",100,"top_num")
-# tf.app.flags.DEFINE_integer("attention_num_output_units_i2topu",64,"attention_num_output_units_i2topu")
-# tf.app.flags.DEFINE_integer("attention_num_output_units_u2topu",64,"attention_num_output_units_u2topu")
-# tf.app.flags.DEFINE_string("decision_layer_units_for_gate","256,64","decision_layer_units_for_gate")
-# tf.app.flags.DEFINE_string("auxiliary_loss_layer_units","256,64","auxiliary_loss_layer_units")
-
 FLAGS = tf.app.flags.FLAGS
 
 
