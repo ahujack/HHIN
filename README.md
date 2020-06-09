@@ -1,5 +1,8 @@
-# HHIN
-Hierarchical Hybrid Interest Network
+# HIM
+Hybrid Interest Modeling withLimited Behavior
+
+# Public data
+We will expose the data set at the appropriate time
 
 # Prepare
 ## Requirements
@@ -7,7 +10,7 @@ Hierarchical Hybrid Interest Network
 * Tensorflow >= 1.0.4
 
 ## Data preprocess
-The dataset is Amozon music or electronics data, download the data and it is split into training set(80%), and testing set (20%)
+The dataset is Amozon music or electronics data, download the data and it is split into training set(70%), validatation set (10%), and testing set (20%)
 ```
 sh data.sh
 ```
